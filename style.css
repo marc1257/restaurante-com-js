@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-image: url(fundo.png);
+    background-size: cover;
+    animation: opacity 3s ease-in 1s 1;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+.topo {
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    position: sticky;
+      margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+header img {
+    width: 300px;
+    height: 200px;
+}
+
+li {
+    list-style: none;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0%;
+    }
+
+    50% {
+        opacity: 25%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.local {
+    width: 50%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.texto {
+    width: 30%;
+    color: white;
+}
+
+.destaque {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    font-family: "Smooch Sans", sans-serif;
+    font-optical-sizing: auto;
+   
+
+}
+
+.destaques{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.prato{
+    display: flex;
+    align-content: center;
+    align-content: center;
+    gap: 50px;
+    margin: 100px;
+}
+
+.palavra{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.cardapio{
+    display: flex;
+    align-content: center;
+    align-content: center;
+    gap: 50px;
+    margin: 100px;
+}
+
+#horas {
+  position: fixed;
+  top: 20px;
+  right: 20px; 
+}
+
+#horas {
+    color: white;
+    padding: 10px;
+    animation: mudar-cor 5s infinite;
+}
+
+@keyframes mudar-cor {
+    0% {
+        color: crimson;
+    }
+    50% {
+        color: rgb(0, 0, 0);
+    }
+    100% {
+        color: rgb(20, 220, 160);
+    }
+}
